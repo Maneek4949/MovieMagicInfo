@@ -1,0 +1,23 @@
+.movie-container {
+    height: 20rem;
+    margin-bottom: 2rem;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+}
+
+.poster img {
+    height: 18.5rem;
+    border-radius: 8px
+}
+
+.movie-info {
+    margin-left: 2rem;
+}
+
+h2.title {
+    font-weight: 800;
+    margin-top: 3rem;
+}

@@ -1,0 +1,29 @@
+#header{
+    display: flex;
+    margin: 1em 0em 3em 0em;
+}
+
+form.search-container{
+    display: flex;
+}
+
+button.btn {
+    margin-left: 20px;
+    border-radius: 2rem;
+}
+
+
+a.navbar-brand {
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+
+input.form-control {
+        border-radius: 2rem;
+        
+}
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }  

@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header/header';
+import Movies from './components/Movies/movies';
+import "./App.css"
 
+
+let api_key="921d51a23e184eccd560292ce58c13f9"
+let base="https://api.themoviedb.org/3"
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Movies/>
     </div>
   );
 }
