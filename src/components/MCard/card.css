@@ -1,23 +1,52 @@
 .movie-container {
-    height: 20rem;
-    margin-bottom: 2rem;
-    padding: 10px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    overflow: hidden;
+height: 20rem;
+margin-bottom: 2rem;
+padding: 10px;
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .poster img {
-    height: 18.5rem;
-    border-radius: 8px
+height: 18.5rem;
+border-radius: 8px
 }
 
 .movie-info {
-    margin-left: 2rem;
+margin-left: 2.5rem;
 }
 
 h2.title {
-    font-weight: 800;
-    margin-top: 3rem;
+font-weight: 800;
+margin-top: 3rem;
 }
+
+.box {
+    font-size: 1.2rem;
+}
+p.overveiw {
+    font-size: 1.3rem;
+    height: 100px;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+@media (max-width: 768px) {
+    p.overveiw {
+        height: 150px;
+        overflow: scroll;
+    }
+    h2.title {
+        font-weight: 800;
+        margin-top: 0rem
+        }
+/* 
+        .movie-info {
+            margin-left: 0rem;
+            height: 18rem;
+            overflow: scroll;
+        } */
+              
+    }

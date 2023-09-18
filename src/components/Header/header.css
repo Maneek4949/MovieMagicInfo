@@ -1,29 +1,44 @@
 #header{
-    display: flex;
-    margin: 1em 0em 3em 0em;
+display: flex;
+margin: 3em 0em 3em 0em;
+text-align: center;
 }
 
 form.search-container{
-    display: flex;
+display: flex;
 }
 
 button.btn {
-    margin-left: 20px;
-    border-radius: 2rem;
+margin-left: 20px;
+border-radius: 2rem;
 }
 
 
 a.navbar-brand {
-    font-size: 1.4em;
-    font-weight: 500;
+font-size: 1.5em;
+font-weight: 900;
+float: right;
 
 }
+
 
 input.form-control {
-        border-radius: 2rem;
-        
+    border-radius: 2rem;
+    font-weight: 550;
+    font-size: 20px;
 }
+
 .form-control:focus {
-    outline: none !important;
-    box-shadow: none !important;
-  }  
+outline: none !important;
+box-shadow: none !important;
+}  
+
+
+
+@media (max-width: 768px) {
+a.navbar-brand {
+float: inherit;
+
+}
+
+}
