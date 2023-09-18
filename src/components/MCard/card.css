@@ -30,23 +30,50 @@ p.overveiw {
     overflow-y: scroll;
 }
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+    width: 0;  
+    background: transparent;
 }
-@media (max-width: 768px) {
-    p.overveiw {
-        height: 150px;
-        overflow: scroll;
+@media (max-width: 576px) {
+    .movie-container {
+        height: auto
+    }
+    .poster {
+        position: relative;
+        justify-content: center;
+        display: flex;
+        overflow: hidden;
+        background-image: url("https://images.pexels.com/photos/70573/fireman-firefighter-rubble-9-11-70573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        border-radius: 8px;
+      }
+      
+      .poster::before {
+        content: "";
+        filter: blur(1px);
+        -webkit-filter: blur(1px);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        
+      }
+      
+      .poster img {
+        position: relative;
+        z-index: 1;
+        margin: auto;
+        border-radius: 0px
+      }
+      .movie-info {
+        margin-left: 0rem;
     }
     h2.title {
         font-weight: 800;
-        margin-top: 0rem
-        }
-/* 
-        .movie-info {
-            margin-left: 0rem;
-            height: 18rem;
-            overflow: scroll;
-        } */
-              
+        margin-top: 1rem;
+    }
+    .box {
+        font-size: 1.1 rem;
+    }
+    p.overveiw {
+        font-size: 1rem;
+    }
+    
     }

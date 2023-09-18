@@ -3,16 +3,16 @@ import "./card.css"
 
 
 function Mcard(movie){
-    const img_path="https://image.tmdb.org/t/p/w500/"
+    let img_src="https://image.tmdb.org/t/p/w500/"+movie.info.poster_path;
     return (
         <Container>
             <Row className="movie-container">
-                <Col xs={6} sm={6} md={3}>
+                <Col xs={12} sm={6} md={3}>
                 <div className="poster">
-                    <img src={img_path+movie.info.poster_path} alt="poster"></img>
+                    <img src={img_src} alt="poster"></img>
                 </div>
                 </Col>
-                <Col xs={6} sm={6} md={9}>
+                <Col xs={12} sm={6} md={9}>
                 <div className="movie-info">
                     <h2 className="title">{movie.info.original_title}
                     </h2>
