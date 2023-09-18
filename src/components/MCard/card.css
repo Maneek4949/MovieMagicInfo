@@ -14,15 +14,20 @@ border-radius: 8px
 
 .movie-info {
 margin-left: 2.5rem;
+color: #3d3d3d;
 }
 
 h2.title {
-font-weight: 800;
+font-weight: 700;
+font-family: 'Roboto', sans-serif;
 margin-top: 3rem;
+color: #585858;
 }
 
 .box {
     font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    
 }
 p.overveiw {
     font-size: 1.3rem;
@@ -66,7 +71,7 @@ p.overveiw {
         margin-left: 0rem;
     }
     h2.title {
-        font-weight: 800;
+
         margin-top: 1rem;
     }
     .box {
@@ -76,4 +81,15 @@ p.overveiw {
         font-size: 1rem;
     }
     
+    }
+
+    @media screen and (min-width: 577px) and (max-width: 767px) {
+        h2.title {
+            margin-top: 0rem;
+            }
+            .movie-info {
+                margin-left: 0rem;
+            
+                }
+                
     }
