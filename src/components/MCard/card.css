@@ -13,7 +13,6 @@ border-radius: 8px
 }
 
 .movie-info {
-margin-left: 2.5rem;
 color: #3d3d3d;
 }
 
@@ -84,12 +83,17 @@ p.overveiw {
     }
 
     @media screen and (min-width: 577px) and (max-width: 767px) {
+        .movie-container {
+            height: 22rem;
+            }
+            
         h2.title {
             margin-top: 0rem;
             }
             .movie-info {
-                margin-left: 0rem;
+                margin-left: 5px;
             
                 }
                 
+
     }

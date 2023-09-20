@@ -7,12 +7,12 @@ function Mcard(movie){
     return (
         <Container>
             <Row className="movie-container">
-                <Col xs={12} sm={6} md={3}>
+                <Col xs={12} sm={6} md={4} lg={3}>
                 <div className="poster">
                     <img src={img_src} alt="poster"></img>
                 </div>
                 </Col>
-                <Col xs={12} sm={6} md={9}>
+                <Col xs={12} sm={6} md={8} lg={9}>
                 <div className="movie-info">
                     <h2 className="title">{movie.info.original_title}
                     </h2>
