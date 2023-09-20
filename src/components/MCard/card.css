@@ -86,6 +86,11 @@ p.overveiw {
         .movie-container {
             height: 22rem;
             }
+
+            .poster img {
+                height: 20.5rem;
+                border-radius: 8px
+                }
             
         h2.title {
             margin-top: 0rem;
