@@ -46,18 +46,8 @@ p.overveiw {
         justify-content: center;
         display: flex;
         overflow: hidden;
-        background-image: url("https://images.pexels.com/photos/70573/fireman-firefighter-rubble-9-11-70573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        background-image: url("https://picsum.photos/576/300/?blur=10");
         border-radius: 8px;
-      }
-      
-      .poster::before {
-        content: "";
-        filter: blur(1px);
-        -webkit-filter: blur(1px);
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        
       }
       
       .poster img {
